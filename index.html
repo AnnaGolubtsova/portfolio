@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="content">
+    <header class="header center">
+        <nav>
+            <a class="nav__link" href="#portfolio">Портфолио</a>
+            <a class="nav__link" href="#skills">Навыки</a>
+            <a class="nav__link" href="#about-me">Обо мне</a>
+            <a class="nav__link" href="#contacts">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section class="top center"> 
+            <h1 class="title">I am a Web and Graphic Designer</h1>
+            <img src="my photo.png" alt="моя фотография">
+        </section>
+        <section class="about center">
+            <h2 class="heading" id="about-me">Обо мне</h2>
+            <div class="about__content">
+                <img class="about__image" src="about.svg" alt="обо мне">
+                 <p class="about__text">Меня зовут Анна. Я веб дизайнер, графический дизайнер. Фрилансер. Также изучаю frontend разработку.
+
+                <br><br>Основное направление – дизайн многостраничных сайтов и сервисов, а также посадочных страниц (landing pages). 
+            
+                <br><br>Мое образование:
+            Физический факультет МГУ им. М.В. Ломоносова
+            Курсы Geek Brains и Skillbox. </p>
+            </div>
+        </section>
+        <section class="skills center">  
+            <h2 class="heading" id="skills">Навыки</h2>
+            <div class="skills__content">
+                <img class="skills__images" src="Photoshop.svg" alt="иконка Photoshop">
+                <img class="skills__images" src="Illustrator.svg" alt="иконка AI">
+                <img class="skills__images" src="procreate.svg" alt="иконка procreate">
+                <img class="skills__images" src="figma logo.svg" alt="иконка Figma">
+            </div>    
+        </section>
+        <section class="slider center">
+            <h2 class="heading" id="portfolio">Портфолио</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="portfolio1.jpg" class="d-block w-100" alt="оформление Симпозиума по скандинавской ходьбе">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="portfolio2.jpg" class="d-block w-100" alt="интерактивное комм предложение для проекта по тактической медицине">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="portfoilo3.jpg" class="d-block w-100" alt="айдентика для компании Nordic Health">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="contact center">
+            <h2 class="heading" id="contacts">Контакты</h2>
+            <div class="contact__content">
+                <p class="contact__text">anna.golubtsova@gmail.ru</p>
+                <p class="contact__text">+7 926 499 73 70 </p>
+            </div>    
+        </section>
+    </main>
+    <footer class="footer center">
+        <div class="footer__images">
+            <a class="contacts__link" href="#"><img src="telegramlogo.svg" alt="логотип телеграм"></a>
+            <a class="contacts__link" href="#"><img src="instagramlogo.svg" alt="олготип инстаграм"></a>
+        </div>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
